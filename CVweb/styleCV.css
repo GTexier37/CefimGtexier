@@ -1,0 +1,54 @@
+html{
+    margin-top:2px;;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom: 10px;
+    border: 2px solid;
+    background-color: AntiqueWhite;
+  }
+
+  header{
+    margin-left: 10%;
+  }
+  
+  #photoGuillaume{
+
+    display: flex;
+    position : absolute; right: 20%; top: 3%;
+    flex-direction: row;
+    width: 6%;
+    
+  }
+  #flexbox{
+    display: flex;
+    flex-direction : row;
+    position: left;
+    
+  }
+  
+  #flexitem1{
+    width: 50%;
+    padding:2% 2% 2% 2%;
+    text-underline-position: 200%;
+    border-right: thick double;
+    border-radius: 10px;
+  }
+  
+  #flexitem1 h2 {
+    border-bottom: 10px groove DarkCyan;
+    border-radius: 10px;
+  }
+  
+  #flexitem2{
+    width:50%;
+    padding:2% 2% 2% 2%;
+  }
+  
+  #flexitem2 h2 {
+    border-bottom: 10px groove grey;
+    border-radius: 10px;
+  }
+  
+  p{
+    text-align: justify;
+  }

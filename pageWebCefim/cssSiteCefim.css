@@ -1,0 +1,186 @@
+
+/*@font-face{
+  font-family : MGS;
+  src: url("/font/MGS.ttf") format("truetype")
+}
+
+#MGS{
+  font-family: MGS;
+}*/
+
+html{
+  height: 100%;
+  width: 100%;
+  background-image: url(image/WP.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+	background-position: center; 
+	background-size: cover;
+}
+
+header{
+  text-align: center;
+  position: top;
+  background-color: rgb(31, 97, 141);
+}
+
+body{
+  font-family: "Noto Serif", georgia, serif;
+}
+
+footer{
+  position: bottom;
+  text-align: center;
+}
+/* Pour séléctionner un attribut class en CSS on utilise le symbole . suivi du nom de l'attribut class */
+.flexbox1{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.flexbox2{
+  display: flex;
+}
+
+h1{
+  font-size: 300%;
+  font-style: italic;
+}
+
+.flex-item{
+  margin: 5px;
+  padding: 10px;
+  justify-content: center;
+}
+/* Pour séléctionner un attribut id en CSS on utilise le symbole # suivi du nom de l'ID */
+#firstP{
+  background-image: url(image/konoha.jpg);
+  background-repeat: no-repeat;
+	background-position: center; 
+	background-size: cover;
+  color: white;
+  text-align : center;
+  width: 75%;
+  margin: auto; 
+  border: 3px solid; 
+}
+
+#firstP h2 {
+ color: black; 
+ text-shadow: 2px 2px 2px wheat;
+}
+
+.moi{
+  color: black; 
+  font-style : italic;
+  font-weight: bolder;
+  text-shadow: 3px 3px 10px white;
+}
+
+#aGeodis{
+  color: darkblue; 
+}
+
+#secondP{
+  background-image: url(image/metalGear.jpg);
+  background-repeat: no-repeat;
+	background-position: center; 
+	background-size: cover;
+  color: white;
+  text-shadow: 2px 2px 2px blue;
+  font-weight: bolder;
+  text-align: center;
+  border-style: solid;
+  border-color: darkgray;
+}
+
+#videoGame{
+  color: gray
+}
+
+#thirdP{
+  background-image: url(image/retourVersLeFutur.jpg);
+  background-repeat: no-repeat;
+	background-position: center; 
+	background-size: cover;
+  color: firebrick;
+  text-shadow: 0px 0px 10px black;
+  font-weight: bolder;
+  text-align: center;
+  border-style: solid;
+}
+
+#thirdP a{
+  color: darkgrey;
+  text-shadow: 1px 1px px 
+  
+}
+
+ol{
+  text-align: left;
+  padding-left: 25%;
+}
+
+#fourthP{
+  background-image: url(image/jtf.jpg);
+  background-repeat: no-repeat;
+	background-position: center; 
+	background-size: cover;
+  color: darkred;
+  text-shadow: 1px 1px 1px white;
+  font-weight: bolder;
+  text-align: center;
+  border-style: solid;
+}
+
+#fifthP{
+  background-image: url(image/geek.jpg);
+  background-repeat: no-repeat;
+	background-position: center; 
+	background-size: cover;
+  color: darkorange;
+  text-shadow: 3px 3px 10px rgb(17, 0, 252);
+  font-weight: bolder;
+  text-align: center;
+  border-style: solid;
+  border-color: darkgray;
+}
+
+ul{
+  text-align: left;
+  padding-left: 25%;
+}
+
+#sixthP{
+  text-align: center;
+}
+
+#sixthP button{
+  width: 75%;
+  height: 50px;
+  font-size: large;
+  color:white;
+  font-weight: bold;
+  border-radius: 0px;
+  border: double white;
+  background-color: rgb(31, 97, 141);
+  cursor: pointer;
+  transition: 1s;
+}
+
+#sixthP button:hover{
+  color :rgb(31, 97, 141);
+  background-color: white;
+  border-radius: 10px;
+  border: double rgb(31, 97, 141);
+  transition: all 2s;
+}
+
+.gras{
+  font-weight: bold;
+}
+
+#amgs{
+  color: white;
+}

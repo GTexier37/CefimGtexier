@@ -12,7 +12,7 @@ header{
   text-align: center;
   position: top;
   background-color: rgba(31, 97, 141, 0.5);
-  border-radius: 10px;
+  border-radius: 10px; /**pour arrondire les angles**/
 }
 
 body{
@@ -23,7 +23,7 @@ footer{
   position: bottom;
   text-align: center;
 }
-/* Pour séléctionner un attribut class en CSS on utilise le symbole . suivi du nom de l'attribut class */
+/** Pour séléctionner un attribut class en CSS on utilise le symbole . suivi du nom de l'attribut class**/
 .flexbox1{
   display: flex;
   flex-direction: row;
@@ -59,7 +59,7 @@ h1{
 
 #firstP h2 {
  color: black; 
- text-shadow: 2px 2px 2px wheat;
+ text-shadow: 2px 2px 2px wheat; /**On peut jouer avec les ombres du texte avec text-shadow**/
 }
 
 .moi{
@@ -164,7 +164,7 @@ ul{
   transition: 1s;
 }
 
-#sixthP button:hover{
+#sixthP button:hover{/** semi attribut pour passer d'un état à un autre **/
   color :rgb(31, 97, 141);
   background-color: white;
   border-radius: 10px;

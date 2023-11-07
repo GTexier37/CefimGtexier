@@ -30,7 +30,7 @@ let intHowManyClue;
 function randomWord(){
    mainTitle.innerHTML = "Le Pire Ami 2 A 2";
    howManyClue.style.visibility ='hidden';
-   firstButton.style.visibility = 'visible';
+   firstButton.style.visibility ='visible';
    let random = Math.floor(Math.random()*wordTab.length);
    if(wordAlreadyUsed.includes(random)){
      randomWord();

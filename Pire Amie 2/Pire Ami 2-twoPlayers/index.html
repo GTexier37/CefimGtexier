@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset = "UTF-8">
+    <link rel="stylesheet" href = "style.css">
+    <title>Le Pire Ami 2 A 2</title>
+    <!-- police google-font --> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
+    <!--police google-font-->
+  </head>
+  <body>
+    <header>
+      <h1 id="mainTitle">Le Pire Ami 2 A 2</h1>
+    </header>
+    <div id="mainContent">
+      <button id="button" onclick="randomWord()"> Clic pour choisir un mot</button>
+      <p id="word"></p>
+      <p id="indice"></p>
+      <textarea id="howManyIndice" cols="40" rows="1" placeHolder="10 indices max"></textarea>
+      <p id="winOrLoose"></p>
+    </div>
+    <footer>
+      <p id="rules" title= "Voici les règles. Je suis à peu près sûr que je suis en train de commettre une hérésie mais on verra plus tard"> Régles</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

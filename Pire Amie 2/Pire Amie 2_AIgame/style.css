@@ -1,0 +1,39 @@
+html{
+  width: 100%;
+  length: 100%;
+  background: linear-gradient(0.25turn,blue, white, yellow)
+}
+
+body{
+  font-family: 'Rubik Iso', cursive;
+}
+.mainTitle{
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+.mainContent{
+  display: flex;
+  justify-content: center;
+}
+#indice{
+  display: flex;
+  justify-content:center;
+  font-family: cursive;
+}
+#word{
+  display: flex;
+  justify-content:center;
+}
+div{
+  text-align:center;
+}
+#button{
+  border-radius:10px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+}
